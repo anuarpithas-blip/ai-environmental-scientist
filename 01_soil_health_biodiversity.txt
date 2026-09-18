@@ -1,0 +1,56 @@
+SOURCE: Darukaa.Earth: AI Biodiversity Intelligence Chatbot Challenge
+
+TOPIC: Soil Health ↔ Biodiversity
+
+PURPOSE
+This knowledge entry supports multi-metric reasoning between soil health and biodiversity.
+
+ENVIRONMENTAL VARIABLES
+- Soil pH
+- Soil organic carbon
+- Soil moisture
+- Biodiversity indicators
+- Species richness
+- Habitat diversity
+
+CHALLENGE REQUIREMENT
+The challenge explicitly identifies:
+Soil health ↔ biodiversity
+
+The AI Environmental Scientist should not treat soil health and biodiversity as completely separate variables. When relevant information is available, the system should consider soil-health variables together with biodiversity indicators.
+
+MULTI-METRIC REASONING
+Relevant soil-health variables include:
+- pH
+- Organic carbon
+- Moisture
+
+Relevant biodiversity indicators include:
+- Species richness
+- Habitat diversity
+
+When these variables are provided, the system should explain how they are being considered together before generating a recommendation.
+
+EXAMPLE FROM THE CHALLENGE
+The challenge example provides:
+- Soil organic carbon: 0.3%
+- Rainfall: low
+- Crop: monoculture wheat
+- Region: semi-arid
+
+The expected intervention in the challenge example is:
+- Agroforestry and/or intercropping
+
+The expected impacted metrics include:
+- Soil organic carbon
+- Biodiversity
+
+EVIDENCE REQUIREMENT
+Recommendations must explain:
+1. What to do.
+2. Why the intervention is relevant.
+3. Which environmental metric is expected to be affected.
+4. A reference to a study, report, or model.
+
+IMPORTANT
+The challenge document does not provide a complete scientific database for all soil-health and biodiversity relationships. This file should therefore be used as challenge-grounded knowledge and should not be treated as a substitute for indexed research papers, reports, or environmental datasets.

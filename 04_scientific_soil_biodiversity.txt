@@ -1,0 +1,25 @@
+SOURCE: Food and Agriculture Organization of the United Nations (FAO)
+TOPIC: Soil Health, Soil Organic Matter and Biodiversity
+
+Soil organic matter is an important component of healthy soils. Agricultural practices such as crop rotation, cover crops and agroforestry can contribute to increasing soil organic matter and improving soil properties.
+
+Cover crops provide soil cover and add organic material to the soil. They can also contribute to biodiversity within agricultural systems.
+
+Agroforestry combines trees with crops and/or livestock. It can support soil management, water management and biodiversity while providing multiple ecological benefits.
+
+For environmental analysis, soil organic carbon, soil moisture, soil pH and biodiversity indicators should be considered together rather than treating soil health as an isolated variable.
+
+SCIENTIFIC GROUNDING:
+This source supports considering soil organic matter, soil management practices, agroforestry, cover crops and biodiversity together. It does not provide a universal numerical improvement percentage for every location or farming system.
+
+REFERENCE:
+FAO — The Importance of Soil Organic Matter
+https://www.fao.org/4/a0100e/a0100e07.htm
+
+REFERENCE:
+FAO — Soil Organic Cover / Conservation Agriculture
+https://www.fao.org/conservation-agriculture/in-practice/soil-organic-cover/en/
+
+REFERENCE:
+FAO — Agroforestry
+https://www.fao.org/agroforestry/en/

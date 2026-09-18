@@ -1,0 +1,86 @@
+SOURCE: Darukaa.Earth: AI Biodiversity Intelligence Chatbot Challenge
+NOTE: This initial knowledge base contains only information explicitly present in the supplied challenge document.
+It does not invent scientific facts or numerical claims. Add research papers/reports/environmental datasets supplied by the user before making source-backed scientific claims beyond this challenge document.
+
+OBJECTIVE
+Build an AI-powered conversational system that:
+- Maintains a structured knowledge base of biodiversity and environmental metrics.
+- Understands user queries about ecosystems, land, and climate conditions.
+- Generates actionable, non-obvious recommendations to improve biodiversity.
+- Supports every recommendation with scientific reasoning and evidence.
+
+KNOWLEDGE SYSTEM
+The knowledge layer should cover:
+- Soil health: pH, organic carbon, moisture.
+- Land use / land cover.
+- Biodiversity indicators: species richness, habitat diversity.
+- Climate factors: temperature, rainfall.
+- Human impact: pollution, deforestation.
+Expected implementation: RAG, embeddings, vector databases, or structured datasets; index research papers, reports, or environmental datasets; clearly show how knowledge is retrieved and used.
+
+CONVERSATIONAL INTELLIGENCE
+The system should:
+- Ask clarifying questions when inputs are incomplete.
+- Handle multi-turn conversations with memory.
+- Adapt responses based on context.
+Example:
+User: “Biodiversity is declining on my land”
+System: “Can you provide soil organic carbon %, rainfall pattern, and land use type?”
+
+EVIDENCE-BACKED RECOMMENDATIONS
+Each recommendation must include:
+- What to do.
+- Why it works (scientific reasoning).
+- Which environmental metric improves.
+- Reference to a study/report/model.
+The challenge gives an example involving legume-based cover crops and an FAO study. This example is an illustration of expected output quality; this app does not treat it as a universal scientific rule.
+
+MULTI-METRIC REASONING
+The system must connect:
+- Soil health ↔ biodiversity.
+- Water availability ↔ species survival.
+- Land use ↔ habitat fragmentation.
+This is identified as the core differentiator.
+The constraints also require knowledge grounding and reasoning and handling at least 3 environmental variables together.
+
+INPUT HANDLING
+Required:
+- Text input.
+- Structured input (JSON or similar).
+Bonus:
+- Geo-coordinates or spatial context.
+
+OUTPUT QUALITY
+Each response should clearly include:
+- Recommendation.
+- Impacted metrics.
+- Time horizon: short / medium / long term.
+- Confidence level (optional but valuable).
+
+EXAMPLE USE CASE FROM THE CHALLENGE
+Input:
+- Soil organic carbon: 0.3%
+- Rainfall: low
+- Crop: monoculture wheat
+- Region: semi-arid
+Expected output:
+- Suggest agroforestry / intercropping.
+- Explain impact on soil carbon and biodiversity.
+- Provide measurable improvement estimates.
+- Reference credible sources such as FAO and IPCC.
+
+EVALUATION CRITERIA
+- Depth of reasoning: 30%.
+- Scientific grounding: 25%.
+- Knowledge system design: 20%.
+- Conversational intelligence: 15%.
+- Output clarity: 10%.
+
+CONSTRAINTS
+- No generic LLM-only solutions.
+- No shallow or obvious recommendations.
+- Must demonstrate knowledge grounding + reasoning.
+- Must handle at least 3 environmental variables together.
+
+GOAL
+Build a system that behaves like an AI environmental scientist, not a chatbot.

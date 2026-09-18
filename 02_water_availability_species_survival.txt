@@ -1,0 +1,57 @@
+SOURCE: Darukaa.Earth: AI Biodiversity Intelligence Chatbot Challenge
+
+TOPIC: Water Availability ↔ Species Survival
+
+PURPOSE
+This knowledge entry supports multi-metric reasoning between water availability and biodiversity/species survival.
+
+ENVIRONMENTAL VARIABLES
+Relevant water-related variables include:
+- Rainfall
+- Soil moisture
+
+Relevant biodiversity variables include:
+- Biodiversity indicators
+- Species richness
+- Habitat diversity
+
+CHALLENGE REQUIREMENT
+The challenge explicitly identifies:
+Water availability ↔ species survival
+
+The AI Environmental Scientist should consider water availability together with biodiversity when sufficient information is available.
+
+MULTI-METRIC REASONING
+Rainfall and soil moisture can be included as environmental inputs when assessing a biodiversity-related situation.
+
+When biodiversity indicators and water-related variables are available together, the system should:
+- identify both variable groups,
+- include them in the reasoning context,
+- avoid producing a single-variable answer,
+- use retrieved evidence when making scientific recommendations.
+
+EXAMPLE FROM THE CHALLENGE
+The challenge example specifies:
+- Rainfall: low
+- Soil organic carbon: 0.3%
+- Crop: monoculture wheat
+- Region: semi-arid
+
+The expected recommendation is:
+- Agroforestry and/or intercropping
+
+The expected impacted metrics include:
+- Soil organic carbon
+- Biodiversity
+
+EVIDENCE REQUIREMENT
+Every recommendation should provide:
+- The recommended intervention.
+- Scientific reasoning for why it is relevant.
+- The environmental metric(s) affected.
+- A reference to a study, report, or model.
+
+IMPORTANT
+The supplied challenge document identifies water availability ↔ species survival as a required reasoning relationship, but does not provide a complete scientific evidence database for this relationship.
+
+Therefore, this knowledge entry should not invent numerical estimates or unsupported scientific claims. Research papers, reports, or environmental datasets should be indexed separately for deeper scientific grounding.

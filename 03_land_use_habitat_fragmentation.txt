@@ -1,0 +1,61 @@
+SOURCE: Darukaa.Earth: AI Biodiversity Intelligence Chatbot Challenge
+
+TOPIC: Land Use ↔ Habitat Fragmentation
+
+PURPOSE
+This knowledge entry supports multi-metric reasoning between land use/land cover and biodiversity.
+
+ENVIRONMENTAL VARIABLES
+Relevant land variables include:
+- Land use
+- Land cover
+- Crop type
+
+Relevant biodiversity variables include:
+- Biodiversity indicators
+- Species richness
+- Habitat diversity
+
+CHALLENGE REQUIREMENT
+The challenge explicitly identifies:
+Land use ↔ habitat fragmentation
+
+The AI Environmental Scientist should consider land-use information together with biodiversity information when generating environmental reasoning.
+
+MULTI-METRIC REASONING
+Land-use and land-cover information should be considered alongside biodiversity indicators.
+
+Examples of relevant input fields include:
+- Land use type
+- Land cover
+- Crop
+- Species richness
+- Habitat diversity
+
+When multiple variables are available, the system should connect the relevant environmental variables instead of producing an isolated recommendation based on only one input.
+
+EXAMPLE FROM THE CHALLENGE
+The challenge example provides:
+- Crop: monoculture wheat
+- Region: semi-arid
+- Soil organic carbon: 0.3%
+- Rainfall: low
+
+The expected intervention is:
+- Agroforestry and/or intercropping
+
+The expected impacted metrics include:
+- Soil organic carbon
+- Biodiversity
+
+EVIDENCE REQUIREMENT
+Each recommendation should contain:
+1. What to do.
+2. Why it works or why it is relevant.
+3. Which environmental metric is affected.
+4. Reference to a study, report, or model.
+
+IMPORTANT
+The supplied challenge document establishes land use ↔ habitat fragmentation as a required multi-metric reasoning relationship. It does not provide a complete scientific evidence database describing all land-use and habitat-fragmentation effects.
+
+Do not invent numerical claims. Additional research papers, reports, and environmental datasets should be indexed in the knowledge system for deeper scientific grounding.
